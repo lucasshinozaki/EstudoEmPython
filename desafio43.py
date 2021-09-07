@@ -3,7 +3,7 @@ altura = float(input('Digite sua altura: '))
 
 imc = peso / (altura * altura)
 
-if imc > 40:
+if imc >= 40:
     print('Obesidade Mórbida, IMC: {:.2f}'.format(imc))
 elif 30 <= imc < 40:
     print('Obesidade, IMC: {:.2f}'.format(imc))
