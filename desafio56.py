@@ -24,4 +24,4 @@ for c in range(0, 3):
 media = soma / 4
 print("A media das idades: {:.2f}".format(media))
 print("O nome do mais velho: {}".format(maisvelho))
-print("Quantidade de mulheres menores de 20 anos: {}".format(cont))
+print("Quantidade de mulheres menores de 20 anos: {}\n".format(cont))
