@@ -26,4 +26,4 @@ if opcao == 1:
             primeiro_termo += razao
             cont += 1
 else:
-    print("Saindo do programa...")
+    print("Saindo do programa agora...")
