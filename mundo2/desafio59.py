@@ -35,4 +35,9 @@ while opcao != 5:
         n1 = float(input('Digite um numero: '))
         n2 = float(input('Digite outro número: '))
     elif opcao == 5:
-        print('Até mais!!')
+        print('Finalizando...')
+    else:
+        print("Opção inválida. Tente novamente")
+    print("=-=" * 10)
+print("Fim do programa! Volte Sempre!!")
+
