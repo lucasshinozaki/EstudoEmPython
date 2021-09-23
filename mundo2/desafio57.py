@@ -3,7 +3,7 @@
 #Mas só aceite os valores 'M' ou 'F'.
 #Caso esteja erradp, peça a digitação novamente até te um valor correto.
 
-sexo = 'a'
-
+sexo = input('Digite o seu sexo [F/M]: ').strip().upper()
 while sexo != 'M' and sexo != 'F':
-    sexo = input('Digite o seu sexo [F/M]: ').strip().upper()
+    sexo = input('Entrada inválida! Digite novamente o seu sexo [F/M]: ').strip().upper()
+print("Saindo do programa...")
