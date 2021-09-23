@@ -4,6 +4,6 @@
 #Caso esteja erradp, peça a digitação novamente até te um valor correto.
 
 sexo = input('Digite o seu sexo [F/M]: ').strip().upper()[0]
-while sexo != 'M' and sexo != 'F':
+while sexo not in 'MmFf':
     sexo = input('Entrada inválida! Digite novamente o seu sexo [F/M]: ').strip().upper()[0]
-print("Saindo do programa...")
+print("Sexo {} registrado com sucesso".format(sexo))
