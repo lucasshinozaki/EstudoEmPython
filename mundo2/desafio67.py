@@ -7,7 +7,7 @@ while True:
     print("-=-" * 20)
     numero = int(input("Quer ver a tabuada de qual valor [negativo para sair]: "))
     if numero < 0:
-        break;
+        break
     for c in range(0, 11):
         print(f"{numero} X {c} = {numero * c}")
 print("TABUADA ENCERRADA. Volte sempre")
