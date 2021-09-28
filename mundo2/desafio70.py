@@ -18,13 +18,9 @@ while True:
     cont +=1
     if preco > 1000:
         caro += 1
-    if cont == 1:
+    if cont == 1 or preco < menor:
         menor = preco
         nomeM = nome
-    else:
-        if preco < menor:
-            menor = preco
-            nomeM = nome
     if opcao == 'N':
         break
 
