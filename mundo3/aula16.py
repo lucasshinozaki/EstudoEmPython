@@ -9,5 +9,6 @@ for cont in range(0, len(lanche)):
 for pos, comida in enumerate(lanche):
     print(f'Posição {pos} Eu vou comer {comida}')
 
+print(sorted(lanche))
 
 print('Comi pra caramba !!!')
