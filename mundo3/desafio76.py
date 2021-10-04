@@ -1,3 +1,7 @@
+#Desafio 76
+#Cire um programa que tenha uma tupla única com nomes dos produtos e seus respectivos preços, na sequência
+#No final, mostre uma listagem de preços, organizando os dados de forma tabular
+
 tupla = ("Coxinha", 3.00, "Lasanha", 25.00, "Coca-cola", 10.00, "Pizza", 30.00,
          "Pudim", 20.00, "Torta-limão", 35.00, "Esfiha", 5.00, "Pão de Queijo", 7.00)
 
