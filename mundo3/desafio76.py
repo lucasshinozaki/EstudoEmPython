@@ -12,8 +12,8 @@ for c in range(0, len(tupla)):
     elif c % 2 == 0:
         print(f"{tupla[c]:.<40}", end="")
     else:
-        print(f" R$ {tupla[c]:.2f}")
+        print(f" R$ {tupla[c]:>6.2f}")
         soma += tupla[c]
 
 print(f"Soma", end="." * 36)
-print(f" R$ {soma}")
+print(f" R$ {soma:>6.2f}")
