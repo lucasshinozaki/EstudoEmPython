@@ -1,21 +1,22 @@
-#Desafio 84
-#Faça um programa que leia nome e peso de várias pessoas, guardando tudo em uma lista. No final mostre:
-#A) Quantas pessoas foram cadastradas
-#B) Uma listagem com as pessoas mais pesadas
-#C) Um listagem com as pessoas mais leves
+# Desafio 84
+# Faça um programa que leia nome e peso de várias pessoas, guardando tudo em uma lista. No final mostre:
+# A) Quantas pessoas foram cadastradas
+# B) Uma listagem com as pessoas mais pesadas
+# C) Um listagem com as pessoas mais leves
 
 pessoa = list()
 dado = list()
 opcao = ''
-cont1 = maior = menor = 0
+cont1 = cont2 = maior = menor = 0
 while opcao != 'N':
     pessoa.append(str(input("Nome: ")))
     pessoa.append(float(input("Peso: ")))
     dado.append(pessoa[:])
     pessoa.clear()
+    cont1 += 1
     for p in dado:
-        cont1 += 1
-        if cont1 == 1:
+        cont2 += 1
+        if cont2 == 1:
             maior = p[1]
             menor = p[1]
         else:
