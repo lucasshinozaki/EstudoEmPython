@@ -30,12 +30,15 @@ while True:
 print("=-" * 30)
 print(list_jogadores)
 print("=-" * 30)
-print(f'cod.     nome       gols        total')
+print('cod', end='')
+for i in jogador.keys():
+    print(f"{i:<15}", end="")
+print()
 print("--" * 30)
 for i, j in enumerate(list_jogadores):
-    print(f"{i}", end="    ")
+    print(f"{i:>4} ", end="")
     for k, v in j.items():
-        print(f"{v}", end="         ")
+        print(f"{str(v):<15}", end="")
     print()
 print("--" * 30)
 
